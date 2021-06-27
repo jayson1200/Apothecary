@@ -6,6 +6,13 @@
           "hack-78a19"
         ]
       }
+    },
+    "apothecary-226b7": {
+      "hosting": {
+        "my-app": [
+          "apothecary-226b7"
+        ]
+      }
     }
   }
 }

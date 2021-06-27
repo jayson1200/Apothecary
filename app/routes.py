@@ -8,11 +8,11 @@ def index():
     posts=[
         {
             'author': {'username':'Jesus'},
-            'body'  : "I slept with your mother"
+            'body'  : "love ya mom"
         },
         {
             'author':{"username": "Jesus' mother"},
-            'body'  : "My son fucked my best friend oh no"
+            'body'  : "love ya Jesus"
         }
     ]
     return render_template('index.html', title='Home',user=user, posts=posts)
