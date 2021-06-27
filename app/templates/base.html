@@ -1,0 +1,14 @@
+<html>
+    <head>
+        {% if title %}
+        <title> {{title}} - Apothecary</title>
+        {%else%}
+        <title> Welcome to Apothecary!</title>
+        {%endif%}
+    </head>
+    <body>
+        <div>Apothecary <a href="/index">Home</a></div>
+        <hr>
+        {%block content%} {%endblock%}
+    </body>
+</html>
